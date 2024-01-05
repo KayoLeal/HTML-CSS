@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred
+        }
+
+        a:hover{
+            text-decoration: underline ;
+            color: black;
+        }
+
+        a:active{
+            color: azure;
+        }
+
+        a::after{
+            content: '[Link]';
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCAPDhCXNpHEx6r_6QAms1IQ" target="_blank">Canal no You-Tube</a></li>
+        <li><a href="https://www.instagram.com/lealkayo_/" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>
